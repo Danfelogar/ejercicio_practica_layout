@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 2rem;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  header {
+    height: 10vh;
+    background-color: rgb(228, 183, 36);
+  }
+  
+  main {
+    height: 70vh;
+  }
+  
+  footer {
+    height: 20vh;
+    background-color: rgb(30, 180, 80);
+  }
+  
+  figure, nav {
+    display: inline-block;
+  }
+  
+  figure {
+    margin: 2rem;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 1rem;
+  }
+  
+  nav {
+    position: absolute;
+    right: 1.5rem;
+  }
+  
+  aside, section {
+    display: inline-block;
+    height: 70vh;
+  }
+  
+  aside {
+    width: 20vw;
+    background-color: chocolate;
+  }
+  
+  aside div {
+    height: 14vh;
+    margin: 3vh;
+    background-color: rgb(166, 214, 32);
+  }
+  
+  section {
+    position: absolute;
+    left: 20vw;
+    width: 80vw;
+    padding: 1rem;
+    background-color: rgb(15, 109, 231);
+  }
+  
+  .footer-social, .footer-leyes {
+    display: inline-block;
+    margin: 1rem;
+  }
+  
+  .footer-leyes {
+    position: absolute;
+    right: 1.5rem;
+  }
